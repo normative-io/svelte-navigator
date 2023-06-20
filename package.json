@@ -1,5 +1,5 @@
 {
-  "name": "svelte-navigator",
+  "name": "@normative/svelte-navigator",
   "version": "4.0.0",
   "description": "Simple, accessible routing for Svelte",
   "main": "dist/svelte-navigator.umd.js",
