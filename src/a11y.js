@@ -112,7 +112,7 @@ function query(selector, parent = document) {
 
 export function queryHeading(id) {
 	const marker = query(`[data-svnav-route-start="${id}"]`);
-	let current = marker.nextElementSibling;
+	let current = marker?.nextElementSibling;
 	while (!isEndMarker(current, id)) {
 		if (isHeading(current)) {
 			return current;
