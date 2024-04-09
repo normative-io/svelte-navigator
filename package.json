@@ -42,7 +42,7 @@
   "sideEffects": false,
   "private": false,
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --bundleConfigAsCjs",
     "test:unit": "jest test/unit",
     "test:unit:watch": "jest test/unit --watch",
     "test:integ": "start-server-and-test cy:start:quiet http-get://localhost:7070 cy:run",
