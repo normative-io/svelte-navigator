@@ -44,7 +44,7 @@ export function rankRoute(route, index) {
 				}
 
 				return nextScore;
-		  }, 0);
+			}, 0);
 
 	return { route, score, index };
 }
